@@ -1,10 +1,10 @@
 // cargando el texto de los parrafos por js para que sea mas limpio el codigo html
 
-const whoWeAre_Card1="Mots en un emprendimiento familiar dedicado a la comercialización e implementación de equipamientos,maquinaria, servicios y mantenimiento para atender los procesos de las industrias automotriz, minería, forestal e industrial.";
+const whoWeAre_Card1="Mots en un emprendimiento familiar dedicado a la comercialización e implementación de equipamientos, maquinaria, servicios y mantenimiento para atender los procesos de las industrias automotriz, minería, forestal e industrial.";
 
 document.getElementById("txtCard1").innerHTML = whoWeAre_Card1;
 
-const whoWeAre_Card2="Ingresa al mercado automotriz, minero e industrial con el fin de entregar su experiencia en equipamiento hacia talleres y concesionarios de mantenimiento como carrocería, empresas mineras, industriales,forestales y de energías renovables.";
+const whoWeAre_Card2="Ingresa al mercado automotriz, minero e industrial con el fin de entregar su experiencia en equipamiento hacia talleres y concesionarios de mantenimiento como carrocería, empresas mineras, industriales, forestales y de energías renovables.";
 
 document.getElementById("txtCard2").innerHTML = whoWeAre_Card2;
 
