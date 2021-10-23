@@ -1,6 +1,6 @@
 // cargando el texto de los parrafos por js para que sea mas limpio el codigo html
 
-const whoWeAre_Card1="Mots en un emprendimiento familiar dedicado a la comercialización e implementación de equipamientos, maquinaria, servicios y mantenimiento para atender los procesos de las industrias automotriz, minería, forestal e industrial.";
+const whoWeAre_Card1="Mots es una start-up familiar dedicado a la comercialización e implementación de equipamientos, maquinaria, servicios y mantenimiento para atender los procesos de las industrias automotriz, minería, forestal e industrial.";
 
 document.getElementById("txtCard1").innerHTML = whoWeAre_Card1;
 
