@@ -14,7 +14,7 @@ padding-left: 1rem;
     padding-left: 5%;
 }
 
-/* agregue canal alpha para que no se viera tan mal el menu transparente */
+
 .navbar{
     position:fixed;
     width:100%;
@@ -150,4 +150,11 @@ hr{
 
 .section-partners{
     text-align: center;
+}
+.downloadText{
+    padding-right: 1rem;
+}
+
+.download-icon{
+    color: #173E09;
 }
