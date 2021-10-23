@@ -1,0 +1,144 @@
+body {
+    
+    scroll-behavior: smooth;
+    background: rgb(29, 37, 31);
+
+  }
+
+  /*  Barra de navegacion  */
+.nav-title-vcl{
+padding-left: 1rem;
+    margin:auto;
+}
+.nav-icon{
+    padding-left: 5%;
+}
+
+/* agregue canal alpha para que no se viera tan mal el menu transparente */
+.navbar{
+    position:fixed;
+    width:100%;
+    z-index:10;
+    background-color: rgba(10, 10, 10, 0.6)
+}
+.navbar-collapse .navbar-nav .nav-link {
+    color: #fff;
+  }
+
+
+/*quienes somos */
+.section-whoWeAre{
+    padding-top: 60px;
+}
+
+.section-title-vcl{
+    color: #fff;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.h2-section-title{
+    font-weight: 400;
+    font-size:large;
+}
+
+hr{
+    color:#80807E;
+    border-radius: 10px;
+    padding-top: 0.3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    opacity: .5;
+    text-align: center;
+
+}
+.whoWeAre-card{
+    max-width: 18rem;
+}
+
+.whoWeAre-card .card-header{
+    background-color: #173E09;
+    text-align: center;
+    border-radius: 10px;
+}
+.card{
+    margin-left: 10%;
+;
+}
+.card-text{
+    text-align: left;
+    font-size: medium;
+    font-weight: 200;
+}
+.fa-plane{
+    color:#fff ;
+}
+/* @media (max-width:992px)
+ {
+    .section-whoWeAre{
+       display: none;
+    }
+ } */
+
+ /* Destacados */
+
+ .highlights-container{
+    color: rgb(197, 188, 188);
+    padding-bottom: 3rem;
+ }
+ .card-title{
+    font-size: medium;
+    font-weight: 800; 
+    padding-bottom: 1em;
+ }
+
+ /* esto es para que las imagenes queden del 
+ mismo tamaño y se ajusten siempre al tamaño 
+ de la pantalla*/
+ .card-highlight img{
+     width: 100%;
+     height: 17vw;
+     object-fit: cover;
+ }
+
+ .card-body-highlights{
+    background-color:rgb(29, 37, 31);
+
+   
+    color: #fff;
+   
+ }
+ .card-text-highlights{
+    font-weight: 300; 
+ }
+
+
+/* contactenos */
+ .section-contactUs{
+    
+    padding-bottom: 3rem;
+ }
+ .contact-form{
+    
+    height:400px;
+   
+ }
+
+ /* footer */
+.footer-vcl{
+   
+    background-color: rgba(10, 10, 10, 0.6);
+    color: #fff;
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.footer-vcl a{
+    
+    color: #fff;
+    padding-left: 1rem;
+   
+}
+/* .carousel{
+    max-width:900px; max-height:600px
+} */
